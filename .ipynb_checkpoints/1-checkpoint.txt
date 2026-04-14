@@ -1,0 +1,15 @@
+/ComfyUI/models/
+/ComfyUI/output/
+/ComfyUI/input/
+/python_embeded/
+/hf_cache/
+/torch_cache/
+*.safetensors
+*.pth
+*.bin
+*.onnx
+*.exe
+*.zip
+*.tar.gz
+*.7z
+/ComfyUI/custom_nodes/*/models/
