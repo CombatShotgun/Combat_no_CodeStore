@@ -1,0 +1,481 @@
+## ComfyUI-Manager: installing dependencies done.
+[2026-04-14 03:29:09.185] ** ComfyUI startup time: 2026-04-14 03:29:09.185
+[2026-04-14 03:29:09.185] ** Platform: Linux
+[2026-04-14 03:29:09.185] ** Python version: 3.11.13 (main, Jun  5 2025, 13:12:00) [GCC 11.2.0]
+[2026-04-14 03:29:09.185] ** Python executable: /root/miniconda3/bin/python
+[2026-04-14 03:29:09.185] ** ComfyUI Path: /root/autodl-tmp/ComfyUI
+[2026-04-14 03:29:09.185] ** ComfyUI Base Folder Path: /root/autodl-tmp/ComfyUI
+[2026-04-14 03:29:09.185] ** User directory: /root/autodl-tmp/ComfyUI/user
+[2026-04-14 03:29:09.185] ** ComfyUI-Manager config path: /root/autodl-tmp/ComfyUI/user/__manager/config.ini
+[2026-04-14 03:29:09.186] ** Log path: /root/autodl-tmp/ComfyUI/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2026-04-14 03:29:10.064]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/rgthree-comfy
+[2026-04-14 03:29:10.064]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+[2026-04-14 03:29:10.064]    1.8 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Manager
+[2026-04-14 03:29:10.064] 
+[2026-04-14 03:29:12.069] WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+[2026-04-14 03:29:12.070] Found comfy_kitchen backend cuda: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-04-14 03:29:12.070] Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-04-14 03:29:12.070] Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+[2026-04-14 03:29:12.073] Checkpoint files will always be loaded safely.
+[2026-04-14 03:29:12.241] Total VRAM 32111 MB, total RAM 772624 MB
+[2026-04-14 03:29:12.241] pytorch version: 2.8.0+cu128
+[2026-04-14 03:29:12.241] Set vram state to: NORMAL_VRAM
+[2026-04-14 03:29:12.241] Device: cuda:0 NVIDIA GeForce RTX 5090 : cudaMallocAsync
+[2026-04-14 03:29:12.242] Using async weight offloading with 2 streams
+[2026-04-14 03:29:12.242] Enabled pinned memory 733992.0
+[2026-04-14 03:29:12.413] Using pytorch attention
+[2026-04-14 03:29:13.846] Python version: 3.11.13 (main, Jun  5 2025, 13:12:00) [GCC 11.2.0]
+[2026-04-14 03:29:13.846] ComfyUI version: 0.14.1
+[2026-04-14 03:29:13.849] ComfyUI frontend version: 1.39.14
+[2026-04-14 03:29:13.849] [Prompt Server] web root: /root/miniconda3/lib/python3.11/site-packages/comfyui_frontend_package/static
+[2026-04-14 03:29:14.996] [Crystools [0;32mINFO[0m] Crystools version: 1.27.4
+[2026-04-14 03:29:15.008] [Crystools [0;32mINFO[0m] Platform release: 5.15.0-168-generic
+[2026-04-14 03:29:15.008] [Crystools [0;32mINFO[0m] JETSON: Not detected.
+[2026-04-14 03:29:15.033] [Crystools [0;32mINFO[0m] CPU: Intel(R) Xeon(R) Platinum 8470Q - Arch: x86_64 - OS: Linux 5.15.0-168-generic
+[2026-04-14 03:29:15.033] [Crystools [0;32mINFO[0m] pynvml (NVIDIA) initialized.
+[2026-04-14 03:29:15.033] [Crystools [0;32mINFO[0m] GPU/s:
+[2026-04-14 03:29:15.033] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 5090
+[2026-04-14 03:29:15.034] [Crystools [0;32mINFO[0m] NVIDIA Driver: 595.58.03
+[2026-04-14 03:29:16.939] ✅ ComfyUI-Qwen-TTS v1.0.6 loaded
+[2026-04-14 03:29:16.941] ### Loading: ComfyUI-Impact-Subpack (V1.3.5)
+[2026-04-14 03:29:16.942] [Impact Pack/Subpack] Using folder_paths to determine whitelist path: /root/autodl-tmp/ComfyUI/user/default/ComfyUI-Impact-Subpack/model-whitelist.txt
+[2026-04-14 03:29:16.942] [Impact Pack/Subpack] Ensured whitelist directory exists: /root/autodl-tmp/ComfyUI/user/default/ComfyUI-Impact-Subpack
+[2026-04-14 03:29:16.942] [Impact Pack/Subpack] Loaded 0 model(s) from whitelist: /root/autodl-tmp/ComfyUI/user/default/ComfyUI-Impact-Subpack/model-whitelist.txt
+[2026-04-14 03:29:16.971] [Impact Subpack] ultralytics_bbox: /root/autodl-tmp/ComfyUI/models/ultralytics/bbox
+[2026-04-14 03:29:16.971] [Impact Subpack] ultralytics_segm: /root/autodl-tmp/ComfyUI/models/ultralytics/segm
+[2026-04-14 03:29:16.975] ### Loading: ComfyUI-Manager (V3.39.2)
+[2026-04-14 03:29:16.975] [ComfyUI-Manager] network_mode: public
+[2026-04-14 03:29:16.976] [ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). Manager's preview method feature is disabled. Use ComfyUI's --preview-method CLI option or 'Settings > Execution > Live preview method'.
+[2026-04-14 03:29:17.103] ### ComfyUI Version: v0.14.1-15-gb254cecd | Released on '2026-02-20'
+[2026-04-14 03:29:17.125] [36;20m[/root/autodl-tmp/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ckpts path: /root/autodl-tmp/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2026-04-14 03:29:17.126] [36;20m[/root/autodl-tmp/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2026-04-14 03:29:17.126] [36;20m[/root/autodl-tmp/ComfyUI/custom_nodes/comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2026-04-14 03:29:17.140] DWPose: Onnxruntime with acceleration providers detected
+[2026-04-14 03:29:18.154] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2026-04-14 03:29:18.180] [34m[ComfyUI-Easy-Use] server: [0mv1.3.7 [92mLoaded[0m
+[2026-04-14 03:29:18.180] [34m[ComfyUI-Easy-Use] web root: [0m/root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Easy-Use/web_version/v2 [92mLoaded[0m
+[2026-04-14 03:29:18.254] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+[2026-04-14 03:29:18.254] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2026-04-14 03:29:18.258] ComfyUI-GGUF: Allowing full torch compile
+[2026-04-14 03:29:18.443] Total VRAM 32111 MB, total RAM 772624 MB
+[2026-04-14 03:29:18.443] pytorch version: 2.8.0+cu128
+[2026-04-14 03:29:18.443] Set vram state to: NORMAL_VRAM
+[2026-04-14 03:29:18.444] Device: cuda:0 NVIDIA GeForce RTX 5090 : cudaMallocAsync
+[2026-04-14 03:29:18.444] Using async weight offloading with 2 streams
+[2026-04-14 03:29:18.444] Enabled pinned memory 733992.0
+[2026-04-14 03:29:18.451] 
+[2026-04-14 03:29:18.451] [92m[rgthree-comfy] Loaded 48 fantastic nodes. 🎉[0m
+[2026-04-14 03:29:18.451] 
+[2026-04-14 03:29:18.451] [33m[rgthree-comfy] ComfyUI's new Node 2.0 rendering may be incompatible with some rgthree-comfy nodes and features, breaking some rendering as well as losing the ability to access a node's properties (a vital part of many nodes). It also appears to run MUCH more slowly spiking CPU usage and causing jankiness and unresponsiveness, especially with large workflows. Personally I am not planning to use the new Nodes 2.0 and, unfortunately, am not able to invest the time to investigate and overhaul rgthree-comfy where needed. If you have issues when Nodes 2.0 is enabled, I'd urge you to switch it off as well and join me in hoping ComfyUI is not planning to deprecate the existing, stable canvas rendering all together.
+[0m
+[2026-04-14 03:29:18.454] 
+[0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.6.2-b1 in ComfyUI[0m
+[2026-04-14 03:29:18.501] Torch version: 2.8.0+cu128
+[2026-04-14 03:29:18.923] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2026-04-14 03:29:18.923] [34mWAS Node Suite: [0m`ffmpeg_bin_path` is set to: /usr/bin/ffmpeg[0m
+[2026-04-14 03:29:19.268] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+[2026-04-14 03:29:19.268] 
+	[3m[93m"Great minds discuss ideas; average minds discuss events; small minds discuss people."[0m[3m - Eleanor Roosevelt[0m
+[2026-04-14 03:29:19.268] 
+[2026-04-14 03:29:19.292] ======================================== ComfyUI-nunchaku Initialization ========================================
+[2026-04-14 03:29:19.294] Nunchaku version: 1.2.1
+[2026-04-14 03:29:19.297] ComfyUI-nunchaku version: 1.2.1
+[2026-04-14 03:29:19.456] 'nunchaku_versions.json' not found. Node will start in minimal mode. Use 'update node' to fetch versions.
+[2026-04-14 03:29:19.456] =================================================================================================================
+[2026-04-14 03:29:19.480] ### Loading: ComfyUI-Impact-Pack (V8.28.2)
+[2026-04-14 03:29:19.545] [Impact Pack] Wildcard total size (0.00 MB) is within cache limit (50.00 MB). Using full cache mode.
+[2026-04-14 03:29:19.546] [Impact Pack] Wildcards loading done.
+[2026-04-14 03:29:19.554] USDU batch patches applied successfully.
+[2026-04-14 03:29:19.554] USDU batch patches applied successfully.
+[2026-04-14 03:29:19.558] ⚡ SeedVR2 optimizations check: SageAttention ✅ | Flash Attention ✅ | Triton ✅
+[2026-04-14 03:29:19.641] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2026-04-14 03:29:19.742] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2026-04-14 03:29:19.743] 📊 Initial CUDA memory: 30.75GB free / 31.36GB total
+[2026-04-14 03:29:19.823] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2026-04-14 03:29:19.990] 
+Import times for custom nodes:
+[2026-04-14 03:29:19.990]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/websocket_image_save.py
+[2026-04-14 03:29:19.990]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-DD-Translation
+[2026-04-14 03:29:19.990]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_CatVTON_Wrapper
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-MelBandRoFormer
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-GGUF
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Florence2
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_essentials
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/rgthree-comfy
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-ReplenishNodes
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-IC-Light
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-segment-anything-2
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_LayerStyle
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Impact-Subpack
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-FluxTrainer
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Easy-Use
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Qwen-TTS
+[2026-04-14 03:29:19.991]    0.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/Comfyui_CXH_joy_caption
+[2026-04-14 03:29:19.991]    0.1 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-ReActor
+[2026-04-14 03:29:19.991]    0.1 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2026-04-14 03:29:19.991]    0.1 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2026-04-14 03:29:19.991]    0.1 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+[2026-04-14 03:29:19.991]    0.1 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Manager
+[2026-04-14 03:29:19.991]    0.2 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-nunchaku
+[2026-04-14 03:29:19.991]    0.2 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2026-04-14 03:29:19.991]    0.2 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_LayerStyle_Advance
+[2026-04-14 03:29:19.991]    0.3 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-SeedVR2_VideoUpscaler
+[2026-04-14 03:29:19.991]    0.7 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2026-04-14 03:29:19.991]    0.9 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_IndexTTS
+[2026-04-14 03:29:19.991]    1.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI-LBMWrapper
+[2026-04-14 03:29:19.991]    1.0 seconds: /root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_InstantID
+[2026-04-14 03:29:19.991] 
+[2026-04-14 03:29:19.996] Context impl SQLiteImpl.
+[2026-04-14 03:29:19.996] Will assume non-transactional DDL.
+[2026-04-14 03:29:20.029] Assets scan(roots=['models']) completed in 0.030s (created=0, skipped_existing=50, orphans_pruned=0, total_seen=51)
+[2026-04-14 03:29:20.064] Starting server
+
+[2026-04-14 03:29:20.064] To see the GUI go to: http://127.0.0.1:6006
+[2026-04-14 03:29:20.446] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2026-04-14 03:29:30.867] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/buttonGroup.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:30.888] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:30.910] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/groupNode.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:30.979] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/widgetInputs.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:31.242] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/clipspace.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:33.215] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-04-14 03:29:34.841] FETCH ComfyRegistry Data: 5/138
+[2026-04-14 03:29:35.345] got prompt
+[2026-04-14 03:29:35.494] !!! Exception during processing !!! Can't load image processor for '/root/autodl-tmp/ComfyUI/models/segformer_b2_clothes'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure '/root/autodl-tmp/ComfyUI/models/segformer_b2_clothes' is the correct path to a directory containing a preprocessor_config.json file
+[2026-04-14 03:29:35.497] Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.11/site-packages/transformers/image_processing_base.py", line 354, in get_image_processor_dict
+    resolved_image_processor_file = resolved_image_processor_files[0]
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 530, in execute
+    output_data, output_ui, has_subgraph, has_pending_tasks = await get_output_data(prompt_id, unique_id, obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 334, in get_output_data
+    return_values = await _async_map_node_over_list(prompt_id, unique_id, obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 308, in _async_map_node_over_list
+    await process_inputs(input_dict, i)
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 296, in process_inputs
+    result = f(**inputs)
+             ^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_LayerStyle/py/segformer_ultra.py", line 126, in segformer_ultra
+    pred_seg, cloth = get_segmentation(i)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/custom_nodes/ComfyUI_LayerStyle/py/segformer_ultra.py", line 49, in get_segmentation
+    processor = SegformerImageProcessor.from_pretrained(model_folder_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/transformers/image_processing_base.py", line 201, in from_pretrained
+    image_processor_dict, kwargs = cls.get_image_processor_dict(pretrained_model_name_or_path, **kwargs)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/transformers/image_processing_base.py", line 361, in get_image_processor_dict
+    raise OSError(
+OSError: Can't load image processor for '/root/autodl-tmp/ComfyUI/models/segformer_b2_clothes'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure '/root/autodl-tmp/ComfyUI/models/segformer_b2_clothes' is the correct path to a directory containing a preprocessor_config.json file
+
+[2026-04-14 03:29:35.499] Prompt executed in 0.13 seconds
+[2026-04-14 03:29:42.700] FETCH ComfyRegistry Data: 10/138
+[2026-04-14 03:29:50.284] FETCH ComfyRegistry Data: 15/138
+[2026-04-14 03:29:57.616] FETCH ComfyRegistry Data: 20/138
+[2026-04-14 03:30:05.310] FETCH ComfyRegistry Data: 25/138
+[2026-04-14 03:30:11.905] FETCH ComfyRegistry Data: 30/138
+[2026-04-14 03:30:19.297] FETCH ComfyRegistry Data: 35/138
+[2026-04-14 03:30:26.221] FETCH ComfyRegistry Data: 40/138
+[2026-04-14 03:30:33.361] FETCH ComfyRegistry Data: 45/138
+[2026-04-14 03:30:39.911] FETCH ComfyRegistry Data: 50/138
+[2026-04-14 03:30:47.441] FETCH ComfyRegistry Data: 55/138
+[2026-04-14 03:30:54.296] FETCH ComfyRegistry Data: 60/138
+[2026-04-14 03:31:00.751] got prompt
+[2026-04-14 03:31:01.037] FETCH ComfyRegistry Data: 65/138
+[2026-04-14 03:31:01.553] Downloading hustvl/vitmatte-small-composition-1k model...
+[2026-04-14 03:31:09.246] FETCH ComfyRegistry Data: 70/138
+[2026-04-14 03:31:15.938] Fetching 5 files: 100%|███████████████████████████| 5/5 [00:13<00:00,  2.46s/it]Fetching 5 files: 100%|███████████████████████████| 5/5 [00:13<00:00,  2.77s/it]
+[2026-04-14 03:31:16.811] # 😺dzNodes: LayerStyle -> [1;32mSegformerB2ClothesUltra Processed 1 image(s).[m
+[2026-04-14 03:31:17.000] FETCH ComfyRegistry Data: 75/138
+[2026-04-14 03:31:24.403] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.46it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.43it/s]
+[2026-04-14 03:31:24.544] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:31:24.661] Prompt executed in 23.89 seconds
+[2026-04-14 03:31:25.190] FETCH ComfyRegistry Data: 80/138
+[2026-04-14 03:31:31.005] [ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.
+[2026-04-14 03:31:31.050] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1514988643_custom-node-list.json [DONE]
+[2026-04-14 03:31:31.086] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/746607195_github-stats.json [DONE]
+[2026-04-14 03:31:31.092] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/832903789_extras.json [DONE]
+[2026-04-14 03:31:31.543] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1742899825_extension-node-map.json [DONE]
+[2026-04-14 03:31:33.072] FETCH ComfyRegistry Data: 85/138
+[2026-04-14 03:31:39.710] FETCH ComfyRegistry Data: 90/138
+[2026-04-14 03:31:47.298] FETCH ComfyRegistry Data: 95/138
+[2026-04-14 03:31:55.613] FETCH ComfyRegistry Data: 100/138
+[2026-04-14 03:32:03.507] FETCH ComfyRegistry Data: 105/138
+[2026-04-14 03:32:10.808] FETCH ComfyRegistry Data: 110/138
+[2026-04-14 03:32:18.525] FETCH ComfyRegistry Data: 115/138
+[2026-04-14 03:32:25.930] FETCH ComfyRegistry Data: 120/138
+[2026-04-14 03:32:33.893] FETCH ComfyRegistry Data: 125/138
+[2026-04-14 03:32:41.197] FETCH ComfyRegistry Data: 130/138
+[2026-04-14 03:32:48.209] FETCH ComfyRegistry Data: 135/138
+[2026-04-14 03:32:52.998] FETCH ComfyRegistry Data [DONE]
+[2026-04-14 03:32:53.226] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2026-04-14 03:32:53.261] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2026-04-14 03:32:55.125] [ComfyUI-Manager] All startup tasks have been completed.
+[2026-04-14 03:37:10.424] [ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.
+[2026-04-14 03:37:10.545] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1514988643_custom-node-list.json [DONE]
+[2026-04-14 03:37:10.584] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/746607195_github-stats.json [DONE]
+[2026-04-14 03:37:10.590] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/832903789_extras.json [DONE]
+[2026-04-14 03:37:11.082] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1742899825_extension-node-map.json [DONE]
+[2026-04-14 03:39:07.272] [ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.
+[2026-04-14 03:39:07.357] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1514988643_custom-node-list.json [DONE]
+[2026-04-14 03:39:07.402] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/746607195_github-stats.json [DONE]
+[2026-04-14 03:39:07.408] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/832903789_extras.json [DONE]
+[2026-04-14 03:39:07.836] FETCH DATA from: /root/autodl-tmp/ComfyUI/user/__manager/cache/1742899825_extension-node-map.json [DONE]
+[2026-04-14 03:40:44.074] got prompt
+[2026-04-14 03:40:51.446] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.54it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.54it/s]
+[2026-04-14 03:40:51.583] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:40:51.702] Prompt executed in 7.61 seconds
+[2026-04-14 03:41:00.459] got prompt
+[2026-04-14 03:41:07.285] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:41:07.423] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:41:07.545] Prompt executed in 7.07 seconds
+[2026-04-14 03:41:53.524] got prompt
+[2026-04-14 03:42:00.374] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.51it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:42:00.524] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:42:00.645] Prompt executed in 7.10 seconds
+[2026-04-14 03:46:49.609] got prompt
+[2026-04-14 03:46:56.474] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.54it/s]
+[2026-04-14 03:46:56.616] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:46:56.737] Prompt executed in 7.11 seconds
+[2026-04-14 03:47:08.055] got prompt
+[2026-04-14 03:47:14.888] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:47:15.025] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:47:15.147] Prompt executed in 7.07 seconds
+[2026-04-14 03:47:22.572] got prompt
+[2026-04-14 03:47:29.430] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:47:29.567] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:47:29.688] Prompt executed in 7.10 seconds
+[2026-04-14 03:47:36.678] got prompt
+[2026-04-14 03:47:43.441] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:47:43.579] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:47:43.701] Prompt executed in 7.01 seconds
+[2026-04-14 03:47:51.016] got prompt
+[2026-04-14 03:47:57.861] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.51it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:47:58.000] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:47:58.122] Prompt executed in 7.09 seconds
+[2026-04-14 03:52:51.593] got prompt
+[2026-04-14 03:52:51.734] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00,  8.64it/s]Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00,  8.61it/s]
+[2026-04-14 03:52:58.493] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]
+[2026-04-14 03:52:58.631] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:52:58.753] Prompt executed in 7.14 seconds
+[2026-04-14 03:53:23.451] got prompt
+[2026-04-14 03:53:23.497] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 61.01it/s]
+[2026-04-14 03:53:30.245] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]
+[2026-04-14 03:53:30.380] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:53:30.503] Prompt executed in 7.03 seconds
+[2026-04-14 03:53:43.627] got prompt
+[2026-04-14 03:53:43.645] Expanding/Contracting Mask: 100%|████████████████| 1/1 [00:00<00:00, 213.35it/s]
+[2026-04-14 03:53:50.425] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 03:53:50.560] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:53:50.679] Prompt executed in 7.04 seconds
+[2026-04-14 03:54:07.632] got prompt
+[2026-04-14 03:54:07.667] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 77.97it/s]
+[2026-04-14 03:54:14.429] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]
+[2026-04-14 03:54:14.564] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 03:54:14.680] Prompt executed in 7.03 seconds
+[2026-04-14 04:39:22.592] got prompt
+[2026-04-14 04:39:22.720] Using pytorch attention in VAE
+[2026-04-14 04:39:22.721] Using pytorch attention in VAE
+[2026-04-14 04:39:22.858] VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+[2026-04-14 04:39:22.881] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 80.28it/s]
+[2026-04-14 04:39:29.675] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.54it/s]
+[2026-04-14 04:39:29.814] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 04:39:29.840] Requested to load AutoencodingEngine
+[2026-04-14 04:39:29.891] loaded completely; 27498.66 MB usable, 159.87 MB loaded, full load: True
+[2026-04-14 04:39:30.360] clip missing: ['text_model.embeddings.token_embedding.weight', 'text_model.embeddings.position_embedding.weight', 'text_model.encoder.layers.0.layer_norm1.weight', 'text_model.encoder.layers.0.layer_norm1.bias', 'text_model.encoder.layers.0.self_attn.q_proj.weight', 'text_model.encoder.layers.0.self_attn.q_proj.bias', 'text_model.encoder.layers.0.self_attn.k_proj.weight', 'text_model.encoder.layers.0.self_attn.k_proj.bias', 'text_model.encoder.layers.0.self_attn.v_proj.weight', 'text_model.encoder.layers.0.self_attn.v_proj.bias', 'text_model.encoder.layers.0.self_attn.out_proj.weight', 'text_model.encoder.layers.0.self_attn.out_proj.bias', 'text_model.encoder.layers.0.layer_norm2.weight', 'text_model.encoder.layers.0.layer_norm2.bias', 'text_model.encoder.layers.0.mlp.fc1.weight', 'text_model.encoder.layers.0.mlp.fc1.bias', 'text_model.encoder.layers.0.mlp.fc2.weight', 'text_model.encoder.layers.0.mlp.fc2.bias', 'text_model.encoder.layers.1.layer_norm1.weight', 'text_model.encoder.layers.1.layer_norm1.bias', 'text_model.encoder.layers.1.self_attn.q_proj.weight', 'text_model.encoder.layers.1.self_attn.q_proj.bias', 'text_model.encoder.layers.1.self_attn.k_proj.weight', 'text_model.encoder.layers.1.self_attn.k_proj.bias', 'text_model.encoder.layers.1.self_attn.v_proj.weight', 'text_model.encoder.layers.1.self_attn.v_proj.bias', 'text_model.encoder.layers.1.self_attn.out_proj.weight', 'text_model.encoder.layers.1.self_attn.out_proj.bias', 'text_model.encoder.layers.1.layer_norm2.weight', 'text_model.encoder.layers.1.layer_norm2.bias', 'text_model.encoder.layers.1.mlp.fc1.weight', 'text_model.encoder.layers.1.mlp.fc1.bias', 'text_model.encoder.layers.1.mlp.fc2.weight', 'text_model.encoder.layers.1.mlp.fc2.bias', 'text_model.encoder.layers.2.layer_norm1.weight', 'text_model.encoder.layers.2.layer_norm1.bias', 'text_model.encoder.layers.2.self_attn.q_proj.weight', 'text_model.encoder.layers.2.self_attn.q_proj.bias', 'text_model.encoder.layers.2.self_attn.k_proj.weight', 'text_model.encoder.layers.2.self_attn.k_proj.bias', 'text_model.encoder.layers.2.self_attn.v_proj.weight', 'text_model.encoder.layers.2.self_attn.v_proj.bias', 'text_model.encoder.layers.2.self_attn.out_proj.weight', 'text_model.encoder.layers.2.self_attn.out_proj.bias', 'text_model.encoder.layers.2.layer_norm2.weight', 'text_model.encoder.layers.2.layer_norm2.bias', 'text_model.encoder.layers.2.mlp.fc1.weight', 'text_model.encoder.layers.2.mlp.fc1.bias', 'text_model.encoder.layers.2.mlp.fc2.weight', 'text_model.encoder.layers.2.mlp.fc2.bias', 'text_model.encoder.layers.3.layer_norm1.weight', 'text_model.encoder.layers.3.layer_norm1.bias', 'text_model.encoder.layers.3.self_attn.q_proj.weight', 'text_model.encoder.layers.3.self_attn.q_proj.bias', 'text_model.encoder.layers.3.self_attn.k_proj.weight', 'text_model.encoder.layers.3.self_attn.k_proj.bias', 'text_model.encoder.layers.3.self_attn.v_proj.weight', 'text_model.encoder.layers.3.self_attn.v_proj.bias', 'text_model.encoder.layers.3.self_attn.out_proj.weight', 'text_model.encoder.layers.3.self_attn.out_proj.bias', 'text_model.encoder.layers.3.layer_norm2.weight', 'text_model.encoder.layers.3.layer_norm2.bias', 'text_model.encoder.layers.3.mlp.fc1.weight', 'text_model.encoder.layers.3.mlp.fc1.bias', 'text_model.encoder.layers.3.mlp.fc2.weight', 'text_model.encoder.layers.3.mlp.fc2.bias', 'text_model.encoder.layers.4.layer_norm1.weight', 'text_model.encoder.layers.4.layer_norm1.bias', 'text_model.encoder.layers.4.self_attn.q_proj.weight', 'text_model.encoder.layers.4.self_attn.q_proj.bias', 'text_model.encoder.layers.4.self_attn.k_proj.weight', 'text_model.encoder.layers.4.self_attn.k_proj.bias', 'text_model.encoder.layers.4.self_attn.v_proj.weight', 'text_model.encoder.layers.4.self_attn.v_proj.bias', 'text_model.encoder.layers.4.self_attn.out_proj.weight', 'text_model.encoder.layers.4.self_attn.out_proj.bias', 'text_model.encoder.layers.4.layer_norm2.weight', 'text_model.encoder.layers.4.layer_norm2.bias', 'text_model.encoder.layers.4.mlp.fc1.weight', 'text_model.encoder.layers.4.mlp.fc1.bias', 'text_model.encoder.layers.4.mlp.fc2.weight', 'text_model.encoder.layers.4.mlp.fc2.bias', 'text_model.encoder.layers.5.layer_norm1.weight', 'text_model.encoder.layers.5.layer_norm1.bias', 'text_model.encoder.layers.5.self_attn.q_proj.weight', 'text_model.encoder.layers.5.self_attn.q_proj.bias', 'text_model.encoder.layers.5.self_attn.k_proj.weight', 'text_model.encoder.layers.5.self_attn.k_proj.bias', 'text_model.encoder.layers.5.self_attn.v_proj.weight', 'text_model.encoder.layers.5.self_attn.v_proj.bias', 'text_model.encoder.layers.5.self_attn.out_proj.weight', 'text_model.encoder.layers.5.self_attn.out_proj.bias', 'text_model.encoder.layers.5.layer_norm2.weight', 'text_model.encoder.layers.5.layer_norm2.bias', 'text_model.encoder.layers.5.mlp.fc1.weight', 'text_model.encoder.layers.5.mlp.fc1.bias', 'text_model.encoder.layers.5.mlp.fc2.weight', 'text_model.encoder.layers.5.mlp.fc2.bias', 'text_model.encoder.layers.6.layer_norm1.weight', 'text_model.encoder.layers.6.layer_norm1.bias', 'text_model.encoder.layers.6.self_attn.q_proj.weight', 'text_model.encoder.layers.6.self_attn.q_proj.bias', 'text_model.encoder.layers.6.self_attn.k_proj.weight', 'text_model.encoder.layers.6.self_attn.k_proj.bias', 'text_model.encoder.layers.6.self_attn.v_proj.weight', 'text_model.encoder.layers.6.self_attn.v_proj.bias', 'text_model.encoder.layers.6.self_attn.out_proj.weight', 'text_model.encoder.layers.6.self_attn.out_proj.bias', 'text_model.encoder.layers.6.layer_norm2.weight', 'text_model.encoder.layers.6.layer_norm2.bias', 'text_model.encoder.layers.6.mlp.fc1.weight', 'text_model.encoder.layers.6.mlp.fc1.bias', 'text_model.encoder.layers.6.mlp.fc2.weight', 'text_model.encoder.layers.6.mlp.fc2.bias', 'text_model.encoder.layers.7.layer_norm1.weight', 'text_model.encoder.layers.7.layer_norm1.bias', 'text_model.encoder.layers.7.self_attn.q_proj.weight', 'text_model.encoder.layers.7.self_attn.q_proj.bias', 'text_model.encoder.layers.7.self_attn.k_proj.weight', 'text_model.encoder.layers.7.self_attn.k_proj.bias', 'text_model.encoder.layers.7.self_attn.v_proj.weight', 'text_model.encoder.layers.7.self_attn.v_proj.bias', 'text_model.encoder.layers.7.self_attn.out_proj.weight', 'text_model.encoder.layers.7.self_attn.out_proj.bias', 'text_model.encoder.layers.7.layer_norm2.weight', 'text_model.encoder.layers.7.layer_norm2.bias', 'text_model.encoder.layers.7.mlp.fc1.weight', 'text_model.encoder.layers.7.mlp.fc1.bias', 'text_model.encoder.layers.7.mlp.fc2.weight', 'text_model.encoder.layers.7.mlp.fc2.bias', 'text_model.encoder.layers.8.layer_norm1.weight', 'text_model.encoder.layers.8.layer_norm1.bias', 'text_model.encoder.layers.8.self_attn.q_proj.weight', 'text_model.encoder.layers.8.self_attn.q_proj.bias', 'text_model.encoder.layers.8.self_attn.k_proj.weight', 'text_model.encoder.layers.8.self_attn.k_proj.bias', 'text_model.encoder.layers.8.self_attn.v_proj.weight', 'text_model.encoder.layers.8.self_attn.v_proj.bias', 'text_model.encoder.layers.8.self_attn.out_proj.weight', 'text_model.encoder.layers.8.self_attn.out_proj.bias', 'text_model.encoder.layers.8.layer_norm2.weight', 'text_model.encoder.layers.8.layer_norm2.bias', 'text_model.encoder.layers.8.mlp.fc1.weight', 'text_model.encoder.layers.8.mlp.fc1.bias', 'text_model.encoder.layers.8.mlp.fc2.weight', 'text_model.encoder.layers.8.mlp.fc2.bias', 'text_model.encoder.layers.9.layer_norm1.weight', 'text_model.encoder.layers.9.layer_norm1.bias', 'text_model.encoder.layers.9.self_attn.q_proj.weight', 'text_model.encoder.layers.9.self_attn.q_proj.bias', 'text_model.encoder.layers.9.self_attn.k_proj.weight', 'text_model.encoder.layers.9.self_attn.k_proj.bias', 'text_model.encoder.layers.9.self_attn.v_proj.weight', 'text_model.encoder.layers.9.self_attn.v_proj.bias', 'text_model.encoder.layers.9.self_attn.out_proj.weight', 'text_model.encoder.layers.9.self_attn.out_proj.bias', 'text_model.encoder.layers.9.layer_norm2.weight', 'text_model.encoder.layers.9.layer_norm2.bias', 'text_model.encoder.layers.9.mlp.fc1.weight', 'text_model.encoder.layers.9.mlp.fc1.bias', 'text_model.encoder.layers.9.mlp.fc2.weight', 'text_model.encoder.layers.9.mlp.fc2.bias', 'text_model.encoder.layers.10.layer_norm1.weight', 'text_model.encoder.layers.10.layer_norm1.bias', 'text_model.encoder.layers.10.self_attn.q_proj.weight', 'text_model.encoder.layers.10.self_attn.q_proj.bias', 'text_model.encoder.layers.10.self_attn.k_proj.weight', 'text_model.encoder.layers.10.self_attn.k_proj.bias', 'text_model.encoder.layers.10.self_attn.v_proj.weight', 'text_model.encoder.layers.10.self_attn.v_proj.bias', 'text_model.encoder.layers.10.self_attn.out_proj.weight', 'text_model.encoder.layers.10.self_attn.out_proj.bias', 'text_model.encoder.layers.10.layer_norm2.weight', 'text_model.encoder.layers.10.layer_norm2.bias', 'text_model.encoder.layers.10.mlp.fc1.weight', 'text_model.encoder.layers.10.mlp.fc1.bias', 'text_model.encoder.layers.10.mlp.fc2.weight', 'text_model.encoder.layers.10.mlp.fc2.bias', 'text_model.encoder.layers.11.layer_norm1.weight', 'text_model.encoder.layers.11.layer_norm1.bias', 'text_model.encoder.layers.11.self_attn.q_proj.weight', 'text_model.encoder.layers.11.self_attn.q_proj.bias', 'text_model.encoder.layers.11.self_attn.k_proj.weight', 'text_model.encoder.layers.11.self_attn.k_proj.bias', 'text_model.encoder.layers.11.self_attn.v_proj.weight', 'text_model.encoder.layers.11.self_attn.v_proj.bias', 'text_model.encoder.layers.11.self_attn.out_proj.weight', 'text_model.encoder.layers.11.self_attn.out_proj.bias', 'text_model.encoder.layers.11.layer_norm2.weight', 'text_model.encoder.layers.11.layer_norm2.bias', 'text_model.encoder.layers.11.mlp.fc1.weight', 'text_model.encoder.layers.11.mlp.fc1.bias', 'text_model.encoder.layers.11.mlp.fc2.weight', 'text_model.encoder.layers.11.mlp.fc2.bias', 'text_model.final_layer_norm.weight', 'text_model.final_layer_norm.bias', 'text_projection.weight']
+[2026-04-14 04:39:30.422] clip missing: ['text_projection.weight']
+[2026-04-14 04:39:30.422] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-04-14 04:39:30.432] Requested to load SDXLClipModel
+[2026-04-14 04:39:30.839] loaded completely; 29998.36 MB usable, 1560.80 MB loaded, full load: True
+[2026-04-14 04:39:31.416] model weight dtype torch.float8_e4m3fn, manual cast: torch.bfloat16
+[2026-04-14 04:39:31.419] model_type FLUX
+[2026-04-14 04:39:34.141] Requested to load Flux
+[2026-04-14 04:39:36.307] loaded completely; 28255.84 MB usable, 11350.07 MB loaded, full load: True
+[2026-04-14 04:39:36.336] 
+[2026-04-14 04:39:36.340] !!! Exception during processing !!! mat1 and mat2 shapes cannot be multiplied (231x2048 and 4096x3072)
+[2026-04-14 04:39:36.344] Traceback (most recent call last):
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 530, in execute
+    output_data, output_ui, has_subgraph, has_pending_tasks = await get_output_data(prompt_id, unique_id, obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 334, in get_output_data
+    return_values = await _async_map_node_over_list(prompt_id, unique_id, obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 308, in _async_map_node_over_list
+    await process_inputs(input_dict, i)
+  File "/root/autodl-tmp/ComfyUI/execution.py", line 296, in process_inputs
+    result = f(**inputs)
+             ^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/nodes.py", line 1594, in sample
+    return common_ksampler(model, seed, steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/nodes.py", line 1559, in common_ksampler
+    samples = comfy.sample.sample(model, noise, steps, cfg, sampler_name, scheduler, positive, negative, latent_image,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/sample.py", line 66, in sample
+    samples = sampler.sample(noise, positive, negative, cfg=cfg, latent_image=latent_image, start_step=start_step, last_step=last_step, force_full_denoise=force_full_denoise, denoise_mask=noise_mask, sigmas=sigmas, callback=callback, disable_pbar=disable_pbar, seed=seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 1177, in sample
+    return sample(self.model, noise, positive, negative, cfg, self.device, sampler, sigmas, self.model_options, latent_image=latent_image, denoise_mask=denoise_mask, callback=callback, disable_pbar=disable_pbar, seed=seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 1067, in sample
+    return cfg_guider.sample(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 1049, in sample
+    output = executor.execute(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed, latent_shapes=latent_shapes)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 993, in outer_sample
+    output = self.inner_sample(noise, latent_image, device, sampler, sigmas, denoise_mask, callback, disable_pbar, seed, latent_shapes=latent_shapes)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 979, in inner_sample
+    samples = executor.execute(self, sigmas, extra_args, callback, noise, latent_image, denoise_mask, disable_pbar)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 751, in sample
+    samples = self.sampler_function(model_k, noise, sigmas, extra_args=extra_args, callback=k_callback, disable=disable_pbar, **self.extra_options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/k_diffusion/sampling.py", line 205, in sample_euler
+    denoised = model(x, sigma_hat * s_in, **extra_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 400, in __call__
+    out = self.inner_model(x, sigma, model_options=model_options, seed=seed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 952, in __call__
+    return self.outer_predict_noise(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 959, in outer_predict_noise
+    ).execute(x, timestep, model_options, seed)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 962, in predict_noise
+    return sampling_function(self.inner_model, x, timestep, self.conds.get("negative", None), self.conds.get("positive", None), self.cfg, model_options=model_options, seed=seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 380, in sampling_function
+    out = calc_cond_batch(model, conds, x, timestep, model_options)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 205, in calc_cond_batch
+    return _calc_cond_batch_outer(model, conds, x_in, timestep, model_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 213, in _calc_cond_batch_outer
+    return executor.execute(model, conds, x_in, timestep, model_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/samplers.py", line 325, in _calc_cond_batch
+    output = model.apply_model(input_x, timestep_, **c).chunk(batch_chunks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/model_base.py", line 167, in apply_model
+    return comfy.patcher_extension.WrapperExecutor.new_class_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/model_base.py", line 206, in _apply_model
+    model_output = self.diffusion_model(xc, t, context=context, control=control, transformer_options=transformer_options, **extra_conds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/ldm/flux/model.py", line 301, in forward
+    return comfy.patcher_extension.WrapperExecutor.new_class_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/ldm/flux/model.py", line 352, in _forward
+    out = self.forward_orig(img, img_ids, context, txt_ids, timestep, y, guidance, control, transformer_options, attn_mask=kwargs.get("attention_mask", None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/ldm/flux/model.py", line 165, in forward_orig
+    txt = self.txt_in(txt)
+          ^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/ops.py", line 360, in forward
+    return self.forward_comfy_cast_weights(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ComfyUI/comfy/ops.py", line 353, in forward_comfy_cast_weights
+    x = torch.nn.functional.linear(input, weight, bias)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (231x2048 and 4096x3072)
+
+[2026-04-14 04:39:36.347] Prompt executed in 13.73 seconds
+[2026-04-14 04:41:37.224] got prompt
+[2026-04-14 04:41:38.425] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-04-14 04:41:38.516] Requested to load MochiTEModel_
+[2026-04-14 04:41:39.402] loaded completely; 18648.26 MB usable, 4541.69 MB loaded, full load: True
+[2026-04-14 04:42:04.166] 100%|███████████████████████████████████████████| 20/20 [00:24<00:00,  1.25s/it]100%|███████████████████████████████████████████| 20/20 [00:24<00:00,  1.23s/it]
+[2026-04-14 04:42:04.907] Prompt executed in 27.66 seconds
+[2026-04-14 04:42:40.187] got prompt
+[2026-04-14 04:42:40.242] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 50.66it/s]
+[2026-04-14 04:43:04.938] 100%|███████████████████████████████████████████| 20/20 [00:24<00:00,  1.25s/it]100%|███████████████████████████████████████████| 20/20 [00:24<00:00,  1.23s/it]
+[2026-04-14 04:43:05.685] Prompt executed in 25.48 seconds
+[2026-04-14 04:54:25.916] got prompt
+[2026-04-14 04:54:26.611] clip missing: ['text_projection.weight']
+[2026-04-14 04:54:26.611] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-04-14 04:54:26.842] Requested to load FluxClipModel_
+[2026-04-14 04:54:27.644] loaded completely; 18646.26 MB usable, 4777.54 MB loaded, full load: True
+[2026-04-14 04:54:28.132] Requested to load CLIPVisionModelProjection
+[2026-04-14 04:54:28.263] loaded completely; 13868.72 MB usable, 787.72 MB loaded, full load: True
+[2026-04-14 04:54:54.964] 100%|███████████████████████████████████████████| 20/20 [00:26<00:00,  1.34s/it]100%|███████████████████████████████████████████| 20/20 [00:26<00:00,  1.32s/it]
+[2026-04-14 04:54:55.529] Prompt executed in 29.59 seconds
+[2026-04-14 04:55:11.791] got prompt
+[2026-04-14 04:55:11.839] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 54.75it/s]
+[2026-04-14 04:55:38.535] 100%|███████████████████████████████████████████| 20/20 [00:26<00:00,  1.34s/it]100%|███████████████████████████████████████████| 20/20 [00:26<00:00,  1.32s/it]
+[2026-04-14 04:55:39.104] Prompt executed in 27.29 seconds
+[2026-04-14 04:57:10.483] got prompt
+[2026-04-14 04:57:17.468] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 04:57:17.604] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 04:57:17.722] Prompt executed in 7.22 seconds
+[2026-04-14 04:57:42.138] got prompt
+[2026-04-14 04:57:42.180] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 64.52it/s]
+[2026-04-14 04:57:49.147] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.53it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 04:57:49.284] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 04:57:49.402] Prompt executed in 7.24 seconds
+[2026-04-14 04:57:57.414] got prompt
+[2026-04-14 04:57:57.449] Expanding/Contracting Mask: 100%|████████████████| 1/1 [00:00<00:00, 216.01it/s]
+[2026-04-14 04:58:04.354] 100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]100%|███████████████████████████████████████████| 40/40 [00:05<00:00,  7.52it/s]
+[2026-04-14 04:58:04.492] # 😺dzNodes: LayerStyle -> [1;32mCatVTON_Wrapper Processed.[m
+[2026-04-14 04:58:04.607] Prompt executed in 7.17 seconds
+[2026-04-14 05:00:24.095] got prompt
+[2026-04-14 05:00:24.143] Prompt executed in 0.04 seconds
+[2026-04-14 05:00:32.121] got prompt
+[2026-04-14 05:00:32.209] Prompt executed in 0.08 seconds
+[2026-04-14 05:00:45.641] got prompt
+[2026-04-14 05:00:45.679] Expanding/Contracting Mask: 100%|█████████████████| 1/1 [00:00<00:00, 51.96it/s]
+[2026-04-14 05:00:45.766] Prompt executed in 0.11 seconds
+[2026-04-14 05:01:41.467] got prompt
+[2026-04-14 05:01:41.573] Prompt executed in 0.09 seconds
+[2026-04-14 05:01:54.399] got prompt
+[2026-04-14 05:01:54.456] Prompt executed in 0.05 seconds
